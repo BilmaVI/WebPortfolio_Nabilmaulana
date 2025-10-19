@@ -1,0 +1,107 @@
+.navbar {
+    background: linear-gradient(90deg, #007bff, #6610f2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #fff !important;
+    letter-spacing: 1px;
+    margin-left: 0px;
+}
+
+.navbar-nav .nav-link {
+    color: #f8f9fa !important;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00d084 !important;
+}
+
+.btn-contact {
+    background-color: #00d084;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-contact:hover {
+    background-color: #00b36b;
+    color: #fff;
+}
+
+.home-section {
+    min-height: 92.2vh;
+    background: linear-gradient(135deg, #5ec4ff, #81fbb8);
+    color: #212529;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+}
+
+.home-section h1 {
+    color: #fff;
+    font-size: 2.8rem;
+}
+
+.home-section .lead {
+    color: #f5f5f5;
+    font-size: 1.2rem;
+}
+
+.home-section .bio {
+    margin-bottom: 22px;
+}
+
+.home-section .bio p {
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+
+.home-section .btn-explore {
+    background-color: #00d084;
+    color: #fff;
+    border: none;
+    transition: 0.3s;
+}
+
+.home-section .btn-explore:hover {
+    background-color: #00b36b;
+    transform: scale(1.05);
+}
+
+.photo-frame {
+    position: relative;
+    display: inline-block;
+    background: radial-gradient(circle at 30% 30%, #ffffff80, #00d0ff40);
+    border-radius: 50%;
+    padding: 15px;
+    animation: float 4s ease-in-out infinite;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+}
+
+.profile-photo {
+    width: 360px;
+    height: 360px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #ffffff80;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
